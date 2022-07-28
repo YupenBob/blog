@@ -2,8 +2,9 @@ https://www.yupenbob.ml/2022/07/28/hello-world/
 https://www.yupenbob.ml/tags/index.html
 https://www.yupenbob.ml/repository/index.html
 https://www.yupenbob.ml/links/index.html
+https://www.yupenbob.ml/categories/index.html
 https://www.yupenbob.ml/about/index.html
 https://www.yupenbob.ml/books/index.html
 https://www.yupenbob.ml/
 https://www.yupenbob.ml/tags/%E6%97%A5%E5%B8%B8/
-https://www.yupenbob.ml/categories/%E6%97%A5%E5%B8%B8/
+https://www.yupenbob.ml/categories/%E5%85%B6%E4%BB%96/
