@@ -1,6 +1,5 @@
 https://www.yupenbob.ml/2022/07/29/python-video/
 https://www.yupenbob.ml/file/index.html
-https://www.yupenbob.ml/chat/index.html
 https://www.yupenbob.ml/2022/07/28/PythonTello/
 https://www.yupenbob.ml/2022/07/28/hello-world/
 https://www.yupenbob.ml/2022/07/29/pi1/
@@ -8,6 +7,7 @@ https://www.yupenbob.ml/tags/index.html
 https://www.yupenbob.ml/repository/index.html
 https://www.yupenbob.ml/links/index.html
 https://www.yupenbob.ml/categories/index.html
+https://www.yupenbob.ml/404.html
 https://www.yupenbob.ml/
 https://www.yupenbob.ml/tags/%E6%97%A5%E5%B8%B8/
 https://www.yupenbob.ml/tags/Python/
