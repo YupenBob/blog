@@ -1,454 +1,149 @@
-<!DOCTYPE html>
-<html lang=zh>
-<head>
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  <!-- Color theme for statusbar -->
-  <meta name="theme-color" content="#000000" />
-  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <title>分类: Python创意 | YupenBobの小窝</title>
-  <meta name="description" content="分享一些好玩的~">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>分类: Python创意 | YupenBobの小窝</title><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="分享一些好玩的~">
 <meta property="og:type" content="website">
 <meta property="og:title" content="YupenBobの小窝">
 <meta property="og:url" content="https://www.yupenbob.ml/categories/Python%E5%88%9B%E6%84%8F/index.html">
 <meta property="og:site_name" content="YupenBobの小窝">
 <meta property="og:description" content="分享一些好玩的~">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:author" content="YupenBob">
 <meta name="twitter:card" content="summary">
-  <!-- Canonical links -->
-  <link rel="canonical" href="https://www.yupenbob.ml/categories/Python%E5%88%9B%E6%84%8F/index.html">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/YupenBob-y.png"><link rel="canonical" href="https://www.yupenbob.ml/categories/Python%E5%88%9B%E6%84%8F/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '分类: Python创意',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-08-03 20:56:01'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="YupenBobの小窝" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
-  
-    <link rel="icon" href="/logo-y.png" type="image/x-icon">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-  
-  
-  
-<meta name="generator" content="Hexo 6.2.0"></head>
-
-
-
-<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
-
-<script type="text/javascript" src="\js\FunnyTitle.js"></script>
-
-<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1001; pointer-events: none;" ></canvas> 
-<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-<script type="text/javascript" src="/js/fireworks.js"></script>
-
-<script type="text/javascript" size="150" alpha='0.3' zIndex="-2">"object"==typeof window&&(window.Ribbons=function(){var t=window,i=document.body,n=document.documentElement,o=function(){if(1===arguments.length){if(Array.isArray(arguments[0])){var t=Math.round(o(0,arguments[0].length-1));return arguments[0][t]}return o(0,arguments[0])}return 2===arguments.length?Math.random()*(arguments[1]-arguments[0])+arguments[0]:0},s=function(o){var s=Math.max(0,t.innerWidth||n.clientWidth||i.clientWidth||0),h=Math.max(0,t.innerHeight||n.clientHeight||i.clientHeight||0),e=Math.max(0,t.pageXOffset||n.scrollLeft||i.scrollLeft||0)-(n.clientLeft||0),a=Math.max(0,t.pageYOffset||n.scrollTop||i.scrollTop||0)-(n.clientTop||0);return{width:s,height:h,ratio:s/h,centerx:s/2,centery:h/2,scrollx:e,scrolly:a}},h=function(t,i){this.x=0,this.y=0,this.set(t,i)};h.prototype={constructor:h,set:function(t,i){this.x=t||0,this.y=i||0},copy:function(t){return this.x=t.x||0,this.y=t.y||0,this},multiply:function(t,i){return this.x*=t||1,this.y*=i||1,this},divide:function(t,i){return this.x/=t||1,this.y/=i||1,this},add:function(t,i){return this.x+=t||0,this.y+=i||0,this},subtract:function(t,i){return this.x-=t||0,this.y-=i||0,this},clampX:function(t,i){return this.x=Math.max(t,Math.min(this.x,i)),this},clampY:function(t,i){return this.y=Math.max(t,Math.min(this.y,i)),this},flipX:function(){return this.x*=-1,this},flipY:function(){return this.y*=-1,this}};var e=function(t){this._canvas=null,this._context=null,this._sto=null,this._width=0,this._height=0,this._scroll=0,this._ribbons=[],this._options={colorSaturation:"80%",colorBrightness:"60%",colorAlpha:.65,colorCycleSpeed:6,verticalPosition:"center",horizontalSpeed:150,ribbonCount:3,strokeSize:0,parallaxAmount:-.5,animateSections:!0},this._onDraw=this._onDraw.bind(this),this._onResize=this._onResize.bind(this),this._onScroll=this._onScroll.bind(this),this.setOptions(t),this.init()};return e.prototype={constructor:e,setOptions:function(t){if("object"==typeof t)for(var i in t)t.hasOwnProperty(i)&&(this._options[i]=t[i])},init:function(){try{this._canvas=document.createElement("canvas"),this._canvas.style.display="block",this._canvas.style.position="fixed",this._canvas.style.margin="0",this._canvas.style.padding="0",this._canvas.style.border="0",this._canvas.style.outline="0",this._canvas.style.left="0",this._canvas.style.top="0",this._canvas.style.width="100%",this._canvas.style.height="100%",this._canvas.style["z-index"]="-1",this._canvas.id="bgCanvas",this._onResize(),this._context=this._canvas.getContext("2d"),this._context.clearRect(0,0,this._width,this._height),this._context.globalAlpha=this._options.colorAlpha,window.addEventListener("resize",this._onResize),window.addEventListener("scroll",this._onScroll),document.body.appendChild(this._canvas)}catch(t){return void console.warn("Canvas Context Error: "+t.toString())}this._onDraw()},addRibbon:function(){var t=Math.round(o(1,9))>5?"right":"left",i=1e3,n=this._width+200,s=0,e=0,a="right"===t?-200:n,r=Math.round(o(0,this._height));/^(top|min)$/i.test(this._options.verticalPosition)?r=200:/^(middle|center)$/i.test(this._options.verticalPosition)?r=this._height/2:/^(bottom|max)$/i.test(this._options.verticalPosition)&&(r=this._height-200);for(var l=[],c=new h(a,r),p=new h(a,r),_=null,d=Math.round(o(0,360)),u=0;!(i<=0);){if(i--,s=Math.round((1*Math.random()-.2)*this._options.horizontalSpeed),e=Math.round((1*Math.random()-.5)*(.25*this._height)),(_=new h).copy(p),"right"===t){if(_.add(s,e),p.x>=n)break}else if("left"===t&&(_.subtract(s,e),p.x<=-200))break;l.push({point1:new h(c.x,c.y),point2:new h(p.x,p.y),point3:_,color:d,delay:u,dir:t,alpha:0,phase:0}),c.copy(p),p.copy(_),u+=4,d+=this._options.colorCycleSpeed}this._ribbons.push(l)},_drawRibbonSection:function(t){if(t){if(t.phase>=1&&t.alpha<=0)return!0;if(t.delay<=0){if(t.phase+=.02,t.alpha=1*Math.sin(t.phase),t.alpha=t.alpha<=0?0:t.alpha,t.alpha=t.alpha>=1?1:t.alpha,this._options.animateSections){var i=.1*Math.sin(1+t.phase*Math.PI/2);"right"===t.dir?(t.point1.add(i,0),t.point2.add(i,0),t.point3.add(i,0)):(t.point1.subtract(i,0),t.point2.subtract(i,0),t.point3.subtract(i,0)),t.point1.add(0,i),t.point2.add(0,i),t.point3.add(0,i)}}else t.delay-=.5;var n=this._options.colorSaturation,o=this._options.colorBrightness,s="hsla("+t.color+", "+n+", "+o+", "+t.alpha+" )";this._context.save(),0!==this._options.parallaxAmount&&this._context.translate(0,this._scroll*this._options.parallaxAmount),this._context.beginPath(),this._context.moveTo(t.point1.x,t.point1.y),this._context.lineTo(t.point2.x,t.point2.y),this._context.lineTo(t.point3.x,t.point3.y),this._context.fillStyle=s,this._context.fill(),this._options.strokeSize>0&&(this._context.lineWidth=this._options.strokeSize,this._context.strokeStyle=s,this._context.lineCap="round",this._context.stroke()),this._context.restore()}return!1},_onDraw:function(){for(var t=0,i=this._ribbons.length;t<i;++t)this._ribbons[t]||this._ribbons.splice(t,1);this._context.clearRect(0,0,this._width,this._height);for(var n=0;n<this._ribbons.length;++n){for(var o=this._ribbons[n],s=o.length,h=0,e=0;e<s;++e)this._drawRibbonSection(o[e])&&h++;h>=s&&(this._ribbons[n]=null)}this._ribbons.length<this._options.ribbonCount&&this.addRibbon(),requestAnimationFrame(this._onDraw)},_onResize:function(t){var i=s();this._width=i.width,this._height=i.height,this._canvas&&(this._canvas.width=this._width,this._canvas.height=this._height,this._context&&(this._context.globalAlpha=this._options.colorAlpha))},_onScroll:function(t){var i=s();this._scroll=i.scrolly}},e}());const config={animateSections:!0,colorAlpha:.5,colorBrightness:"50%",colorCycleSpeed:5,colorSaturation:"60%",horizontalSpeed:200,parallaxAmount:-.2,ribbonCount:3,strokeSize:0,verticalPosition:"random"};new Ribbons;</script>
-
-
-
-
-  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-  <div class="slimContent">
-    <div class="navbar-header">
-      
-      
-      <div class="profile-block text-center">
-        <a id="avatar" href="https://github.com/YupenBob" target="_blank">
-          <img class="img-circle img-rotate" src="/images/YupenBob.png" width="200" height="200">
-        </a>
-        <h2 id="name" class="hidden-xs hidden-sm">YupenBob</h2>
-        <h3 id="title" class="hidden-xs hidden-sm hidden-md">分享一些好玩的~</h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Beijing, China</small>
-      </div>
-      
-      <div class="search" id="search-form-wrap">
-
-    <form class="search-form sidebar-form">
-        <div class="input-group">
-            <input type="text" class="search-form-input form-control" placeholder="搜索" />
-            <span class="input-group-btn">
-                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
-            </span>
-        </div>
-    </form>
-    <div class="ins-search">
-  <div class="ins-search-mask"></div>
-  <div class="ins-search-container">
-    <div class="ins-input-wrapper">
-      <input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech />
-      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    </div>
-    <div class="ins-section-wrapper">
-      <div class="ins-section-container"></div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-      <ul class="nav navbar-nav main-nav menu-highlight">
-        
-        
-        <li class="menu-item menu-item-home">
-          <a href="/.">
-            
-            <i class="icon icon-home-fill"></i>
-            
-            <span class="menu-title">首页</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives">
-            
-            <i class="icon icon-archives-fill"></i>
-            
-            <span class="menu-title">归档</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories">
-            
-            <i class="icon icon-folder"></i>
-            
-            <span class="menu-title">分类</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags">
-            
-            <i class="icon icon-tags"></i>
-            
-            <span class="menu-title">标签</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-repository">
-          <a href="/repository">
-            
-            <i class="icon icon-project"></i>
-            
-            <span class="menu-title">项目</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-links">
-          <a href="/links">
-            
-            <i class="icon icon-friendship"></i>
-            
-            <span class="menu-title">友链</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-file">
-          <a href="/file">
-            
-            <i class="icon icon-folder-open"></i>
-            
-            <span class="menu-title">文件</span>
-          </a>
-        </li>
-        
-      </ul>
-      
-    </nav>
-  </div>
-</header>
-
-  
-    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-      <div class="widget">
-    <h3 class="widget-title">公告</h3>
-    <div class="widget-body">
-        <div id="board">
-            <div class="content">
-                <p>YupenBobの小窝开放了awa</p>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/null/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">YupenBobの小窝</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">Python创意</h1></div></header><main class="layout" id="content-inner"><div id="category"><div class="article-sort-title">分类 - Python创意</div><div class="article-sort"><div class="article-sort-item year">2022</div><div class="article-sort-item"><a class="article-sort-item-img" href="/2022/07/29/python-video/" title="PyQt5视频播放器"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="PyQt5视频播放器" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2022-07-29T05:12:26.000Z" title="发表于 2022-07-29 13:12:26">2022-07-29</time></div><a class="article-sort-item-title" href="/2022/07/29/python-video/" title="PyQt5视频播放器">PyQt5视频播放器</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2022/07/28/PythonTello/" title="Python、PyQt5、制作Tello遥控器"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Python、PyQt5、制作Tello遥控器" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2022-07-28T09:29:14.000Z" title="发表于 2022-07-28 17:29:14">2022-07-28</time></div><a class="article-sort-item-title" href="/2022/07/28/PythonTello/" title="Python、PyQt5、制作Tello遥控器">Python、PyQt5、制作Tello遥控器</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">YupenBob</div><div class="author-info__description">分享一些好玩的~</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/null/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/07/29/python-video/" title="PyQt5视频播放器"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PyQt5视频播放器"/></a><div class="content"><a class="title" href="/2022/07/29/python-video/" title="PyQt5视频播放器">PyQt5视频播放器</a><time datetime="2022-07-29T05:12:26.000Z" title="发表于 2022-07-29 13:12:26">2022-07-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/29/pi1/" title="树莓派无显示器安装教程"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派无显示器安装教程"/></a><div class="content"><a class="title" href="/2022/07/29/pi1/" title="树莓派无显示器安装教程">树莓派无显示器安装教程</a><time datetime="2022-07-29T05:05:38.000Z" title="发表于 2022-07-29 13:05:38">2022-07-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/PythonTello/" title="Python、PyQt5、制作Tello遥控器"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Python、PyQt5、制作Tello遥控器"/></a><div class="content"><a class="title" href="/2022/07/28/PythonTello/" title="Python、PyQt5、制作Tello遥控器">Python、PyQt5、制作Tello遥控器</a><time datetime="2022-07-28T09:29:14.000Z" title="发表于 2022-07-28 17:29:14">2022-07-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/28/hello-world/" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/07/28/hello-world/" title="Hello World">Hello World</a><time datetime="2022-07-28T07:11:02.000Z" title="发表于 2022-07-28 15:11:02">2022-07-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
             </div>
-        </div>
-    </div>
-</div>
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Python%E5%88%9B%E6%84%8F/">Python创意</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B6%E4%BB%96/">其他</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%95%99%E7%A8%8B/">树莓派教程</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-
-    
-      
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a><span class="archive-list-count">4</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget-body">
-      <ul class="recent-post-list list-unstyled ">
-        
-          <li>
-            
-            <div class="item-thumb">
-              <a href="/2022/07/29/python-video/" class="thumb">
-    
-    
-        <span class="thumb-image thumb-none"></span>
-    
-</a>
-
-            </div>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/Python%E5%88%9B%E6%84%8F/">Python创意</a>
-              </p>
-              <p class="item-title">
-                <a href="/2022/07/29/python-video/" class="title">PyQt5视频播放器</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2022-07-29T05:12:26.000Z" itemprop="datePublished">2022-07-29</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-thumb">
-              <a href="/2022/07/29/pi1/" class="thumb">
-    
-    
-        <span class="thumb-image thumb-none"></span>
-    
-</a>
-
-            </div>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%95%99%E7%A8%8B/">树莓派教程</a>
-              </p>
-              <p class="item-title">
-                <a href="/2022/07/29/pi1/" class="title">树莓派无显示器安装教程</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2022-07-29T05:05:38.000Z" itemprop="datePublished">2022-07-29</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-thumb">
-              <a href="/2022/07/28/PythonTello/" class="thumb">
-    
-    
-        <span class="thumb-image thumb-none"></span>
-    
-</a>
-
-            </div>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/Python%E5%88%9B%E6%84%8F/">Python创意</a>
-              </p>
-              <p class="item-title">
-                <a href="/2022/07/28/PythonTello/" class="title">Python、PyQt5、制作Tello遥控器</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2022-07-28T09:29:14.000Z" itemprop="datePublished">2022-07-28</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-thumb">
-              <a href="/2022/07/28/hello-world/" class="thumb">
-    
-    
-        <span class="thumb-image thumb-none"></span>
-    
-</a>
-
-            </div>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/%E5%85%B6%E4%BB%96/">其他</a>
-              </p>
-              <p class="item-title">
-                <a href="/2022/07/28/hello-world/" class="title">Hello World</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2022-07-28T07:11:02.000Z" itemprop="datePublished">2022-07-28</time>
-              </p>
-            </div>
-          </li>
-          
-      </ul>
-    </div>
-  </div>
-  
-
-    
-  </div>
-</aside>
-
-  
-  <main class="main" role="main">
-  <article class="content article article-categories article-type-list" itemscope="">
-    <header class="article-header">
-      <h1 itemprop="name" class="hidden-xs">分类: Python创意</h1>
-      <p class="hidden-xs">共 2 篇文章</p>
-      <nav role="navigation" id="nav-main" class="okayNav">
-        <ul>
-          <li><a href="/categories">All</a></li>
-          
-          <li><a href="/categories/Python创意/">Python创意</a></li>
-          
-          <li><a href="/categories/其他/">其他</a></li>
-          
-          <li><a href="/categories/树莓派教程/">树莓派教程</a></li>
-          
-        </ul>
-      </nav>
-    </header>
-    <!-- /header -->
-    <div class="article-body">
-      <div class="panel panel-default b-no">
-    <div class="panel-heading" role="tab">
-        <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapsePython创意" aria-expanded="true">
-              <i class="icon icon-folder text-active"></i><i class="icon icon-folder-open text"></i>
-              Python创意
-            </a>
-            <small class="text-muted">(Total 2 articles)</small>
-        </h4>
-    </div>
-    <div id="collapsePython创意" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingPython创意">
-        <div class="panel-body">
-            <div class="collection">
-              
-                
-<a href="/2022/07/29/python-video/" class="collection-item"  target="_blank"   itemprop="url">
-  <time datetime="2022-07-29T05:12:26.000Z" itemprop="datePublished">2022-07-29</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> PyQt5视频播放器
-</a>
-
-
-              
-                
-<a href="/2022/07/28/PythonTello/" class="collection-item"  target="_blank"   itemprop="url">
-  <time datetime="2022-07-28T09:29:14.000Z" itemprop="datePublished">2022-07-28</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Python、PyQt5、制作Tello遥控器
-</a>
-
-
-              
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
-  </article>
-   
-</main>
-
-  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	
-    <div class="copyright">
-    	
-        <div class="publishby">
-        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
-        </div>
-    </div>
-</footer>
-  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script>
-window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
-</script>
-
-<script src="/js/plugin.min.js"></script>
-
-
-<script src="/js/application.js"></script>
-
-
-    <script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(未命名)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
-</html>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Python%E5%88%9B%E6%84%8F/"><span class="card-category-list-name">Python创意</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%B6%E4%BB%96/"><span class="card-category-list-name">其他</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">树莓派教程</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-08-01T02:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-08-03T12:56:01.243Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By YupenBob</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
