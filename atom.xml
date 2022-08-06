@@ -6,7 +6,7 @@
   <link href="https://www.yupenbob.ml/atom.xml" rel="self"/>
   
   <link href="https://www.yupenbob.ml/"/>
-  <updated>2022-08-06T12:40:20.167Z</updated>
+  <updated>2022-08-06T14:13:29.455Z</updated>
   <id>https://www.yupenbob.ml/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>树莓派配置FTP</title>
+    <link href="https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEFTP/"/>
+    <id>https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEFTP/</id>
+    <published>2022-08-06T14:07:13.000Z</published>
+    <updated>2022-08-06T14:13:29.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安装vsftpd"><a href="#安装vsftpd" class="headerlink" title="安装vsftpd"></a>安装vsftpd</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install vsftpd</span><br></pre></td></tr></table></figure><hr><h1 id="修改配置-etc-vsftpd-conf"><a href="#修改配置-etc-vsftpd-conf" class="headerlink" title="修改配置 /etc/vsftpd.conf"></a>修改配置 /etc/vsftpd.conf</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/vsftpd.conf</span><br></pre></td></tr></table></figure><p>把配置文件修改成如下（最简单配置）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">anonymous_enable=NO     #匿名帐号 </span><br><span class="line"></span><br><span class="line">local_enable=YES        #本地帐号</span><br><span class="line"></span><br><span class="line">write_enable=YES       #允许使用任何可以修改文件系统的FTP的指令</span><br><span class="line"></span><br><span class="line">local_umask=022       #屏蔽权限即本地用户上传的文件权限</span><br><span class="line"></span><br><span class="line">anon_upload_enable=NO     #允许匿名用户上传文件</span><br><span class="line"></span><br><span class="line">anon_mkdir_write_enable=NO   #允许匿名用户创建新目录</span><br><span class="line"></span><br><span class="line">dirmessage_enable=YES     #允许为目录配置显示信息    </span><br><span class="line"></span><br><span class="line">ascii_upload_enable=YES    # 管控是否可用ASCII 模式上传</span><br><span class="line"></span><br><span class="line">ascii_download_enable=YES    #管控是否可用ASCII 模式下载</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>然后ctrl+s保存，ctrl+x退出</p><hr><h1 id="更多详细配置"><a href="#更多详细配置" class="headerlink" title="更多详细配置"></a>更多详细配置</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">anonymous_enable=YES 是否允许匿名帐号</span><br><span class="line">local_enable=YES  是否允许本地帐号</span><br><span class="line">write_enable=YES  是否允许使用任何可以修改文件系统的FTP的指令</span><br><span class="line">local_umask=022 本用户的文件掩码</span><br><span class="line">anon_upload_enable=YES是否允许匿名用户上传文件</span><br><span class="line">anon_mkdir_write_enable=YES是否允许匿名用户创建新目录</span><br><span class="line">dirmessage_enable=YES 是否显示欢迎信息</span><br><span class="line">xferlog_enable=YES 开启日记功能</span><br><span class="line">connect_from_port_20=YES 设定ftp服务数据端口</span><br><span class="line">chown_uploads=YES是否允许修改上传文件的属主</span><br><span class="line">chown_username=whoever如果允许，输入该属主的用户名</span><br><span class="line">xferlog_file=/var/log/xferlog日志文件位置</span><br><span class="line">xferlog_std_format=YES 使用标准的日志格式</span><br><span class="line">idle_session_timeout=600空闲连接超时</span><br><span class="line">data_connection_timeout=120数据传输超时</span><br><span class="line">nopriv_user=ftpsecure当服务器运行于最底层时使用的用户名</span><br><span class="line">async_abor_enable=YES是否允许使用\&quot;async ABOR\&quot;命令,一般不用,容易出问题</span><br><span class="line">ascii_upload_enable=YES是否可用ASCII 模式上传。默认值为NO</span><br><span class="line">ascii_download_enable=YES是否可用ASCII 模式下载。默认值为NO</span><br><span class="line">ftpd_banner=Welcome to blah FTP service   login时显示欢迎信息</span><br><span class="line">deny_email_enable=YES如果匿名用户需要密码,那么使用banned_email_file里面的电子邮件地址的用户不能登录</span><br><span class="line">banned_email_file=/etc/vsftpd/banned_emails禁止使用匿名用户登陆时作为密码的电子邮件地址</span><br><span class="line">chroot_list_enable=YES如果启动这项功能，则所有列在chroot_list_file中的使用者不能更改根目录</span><br><span class="line">chroot_list_file=/etc/vsftpd/chroot_list定义不能更改用户主目录的文件</span><br><span class="line">userlist_enable=YES 若启用此选项,userlist_deny选项才被启动</span><br></pre></td></tr></table></figure><hr><h1 id="创建ftp家庭目录并启动"><a href="#创建ftp家庭目录并启动" class="headerlink" title="创建ftp家庭目录并启动"></a>创建ftp家庭目录并启动</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo –pv ~/ftp</span><br><span class="line">sudo /etc/init.d/vsftpd start</span><br></pre></td></tr></table></figure><hr><h1 id="开发主机安装-FileZilla-Client"><a href="#开发主机安装-FileZilla-Client" class="headerlink" title="开发主机安装 FileZilla Client"></a>开发主机安装 FileZilla Client</h1><blockquote><p>下载链接：<a href="https://www.filezilla.cn/download/client">https://www.filezilla.cn/download/client</a></p></blockquote><p>输入树莓派ip，用户名pi，密码raspberry，连接成功<br><img src="https://img-blog.csdnimg.cn/c344bd28363d47fca3a3f67865a46be9.jpeg#pic_center" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;安装vsftpd&quot;&gt;&lt;a href=&quot;#安装vsftpd&quot; class=&quot;headerlink&quot; title=&quot;安装vsftpd&quot;&gt;&lt;/a&gt;安装vsftpd&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="树莓派教程" scheme="https://www.yupenbob.ml/categories/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Debian" scheme="https://www.yupenbob.ml/tags/Debian/"/>
+    
+    <category term="Linux" scheme="https://www.yupenbob.ml/tags/Linux/"/>
+    
+    <category term="树莓派" scheme="https://www.yupenbob.ml/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="FTP" scheme="https://www.yupenbob.ml/tags/FTP/"/>
+    
+  </entry>
   
   <entry>
     <title>树莓派配置远程桌面</title>
@@ -190,9 +220,9 @@
     
     <category term="Linux" scheme="https://www.yupenbob.ml/tags/Linux/"/>
     
-    <category term="安装" scheme="https://www.yupenbob.ml/tags/%E5%AE%89%E8%A3%85/"/>
-    
     <category term="树莓派" scheme="https://www.yupenbob.ml/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="安装" scheme="https://www.yupenbob.ml/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
