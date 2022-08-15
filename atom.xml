@@ -6,7 +6,7 @@
   <link href="https://www.yupenbob.ml/atom.xml" rel="self"/>
   
   <link href="https://www.yupenbob.ml/"/>
-  <updated>2022-08-15T01:38:25.002Z</updated>
+  <updated>2022-08-15T09:50:13.271Z</updated>
   <id>https://www.yupenbob.ml/</id>
   
   <author>
@@ -21,22 +21,7 @@
     <link href="https://www.yupenbob.ml/2022/08/15/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A/"/>
     <id>https://www.yupenbob.ml/2022/08/15/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A/</id>
     <published>2022-08-15T01:38:24.000Z</published>
-    <updated>2022-08-15T01:38:25.002Z</updated>
-    
-    
-    
-    
-    
-    <category term="hexo" scheme="https://www.yupenbob.ml/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客搭建</title>
-    <link href="https://www.yupenbob.ml/2022/08/09/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>https://www.yupenbob.ml/2022/08/09/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
-    <published>2022-08-09T13:59:29.000Z</published>
-    <updated>2022-08-10T00:59:16.731Z</updated>
+    <updated>2022-08-15T09:50:13.271Z</updated>
     
     <content type="html"><![CDATA[<p>留个坑，以后填</p>]]></content>
     
@@ -49,7 +34,38 @@
     
     
     
-    <category term="Hexo教程" scheme="https://www.yupenbob.ml/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+    <category term="Hexo博客建设" scheme="https://www.yupenbob.ml/categories/Hexo%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.yupenbob.ml/tags/Hexo/"/>
+    
+    <category term="搭建" scheme="https://www.yupenbob.ml/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Github" scheme="https://www.yupenbob.ml/tags/Github/"/>
+    
+    <category term="图床" scheme="https://www.yupenbob.ml/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客搭建</title>
+    <link href="https://www.yupenbob.ml/2022/08/09/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>https://www.yupenbob.ml/2022/08/09/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2022-08-09T13:59:29.000Z</published>
+    <updated>2022-08-15T07:32:11.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>留个坑，以后填</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;留个坑，以后填&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Hexo博客建设" scheme="https://www.yupenbob.ml/categories/Hexo%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/"/>
     
     
     <category term="Hexo" scheme="https://www.yupenbob.ml/tags/Hexo/"/>
@@ -57,6 +73,8 @@
     <category term="搭建" scheme="https://www.yupenbob.ml/tags/%E6%90%AD%E5%BB%BA/"/>
     
     <category term="博客" scheme="https://www.yupenbob.ml/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Github" scheme="https://www.yupenbob.ml/tags/Github/"/>
     
   </entry>
   
