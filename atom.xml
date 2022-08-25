@@ -6,7 +6,7 @@
   <link href="https://www.yupenbob.ml/atom.xml" rel="self"/>
   
   <link href="https://www.yupenbob.ml/"/>
-  <updated>2022-08-20T07:02:05.331Z</updated>
+  <updated>2022-08-21T10:50:38.092Z</updated>
   <id>https://www.yupenbob.ml/</id>
   
   <author>
@@ -15,83 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>blob视频下载</title>
-    <link href="https://www.yupenbob.ml/2022/08/20/blob%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/"/>
-    <id>https://www.yupenbob.ml/2022/08/20/blob%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/</id>
-    <published>2022-08-20T07:02:05.000Z</published>
-    <updated>2022-08-20T07:02:05.331Z</updated>
-    
-    
-    
-    
-    
-    <category term="hexo" scheme="https://www.yupenbob.ml/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费搭建个人图床</title>
-    <link href="https://www.yupenbob.ml/2022/08/15/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A/"/>
-    <id>https://www.yupenbob.ml/2022/08/15/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A/</id>
-    <published>2022-08-15T01:38:24.000Z</published>
-    <updated>2022-08-15T09:50:13.271Z</updated>
-    
-    <content type="html"><![CDATA[<p>留个坑，以后填</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;留个坑，以后填&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Hexo博客建设" scheme="https://www.yupenbob.ml/categories/Hexo%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.yupenbob.ml/tags/Hexo/"/>
-    
-    <category term="搭建" scheme="https://www.yupenbob.ml/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="Github" scheme="https://www.yupenbob.ml/tags/Github/"/>
-    
-    <category term="图床" scheme="https://www.yupenbob.ml/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客搭建</title>
-    <link href="https://www.yupenbob.ml/2022/08/09/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>https://www.yupenbob.ml/2022/08/09/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
-    <published>2022-08-09T13:59:29.000Z</published>
-    <updated>2022-08-15T07:32:11.454Z</updated>
-    
-    <content type="html"><![CDATA[<p>留个坑，以后填</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;留个坑，以后填&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Hexo博客建设" scheme="https://www.yupenbob.ml/categories/Hexo%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.yupenbob.ml/tags/Hexo/"/>
-    
-    <category term="搭建" scheme="https://www.yupenbob.ml/tags/%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="博客" scheme="https://www.yupenbob.ml/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Github" scheme="https://www.yupenbob.ml/tags/Github/"/>
-    
-  </entry>
   
   <entry>
     <title>Freenom免费白嫖域名</title>
@@ -189,9 +112,9 @@
     <link href="https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/"/>
     <id>https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/</id>
     <published>2022-08-06T12:17:13.000Z</published>
-    <updated>2022-08-06T12:40:34.364Z</updated>
+    <updated>2022-08-25T09:55:22.161Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="安装中文字体"><a href="#安装中文字体" class="headerlink" title="安装中文字体"></a>安装中文字体</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-zenhei</span><br></pre></td></tr></table></figure><hr><h1 id="设置中文显示"><a href="#设置中文显示" class="headerlink" title="设置中文显示"></a>设置中文显示</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo raspi-config</span><br></pre></td></tr></table></figure><p>在菜单中找到设置语言的地方，中选择zh_CN.UTF-8，然后下一屏幕默认语言选zh_CN.UTF-8<br><strong>提示</strong>： 按空格键在前面打勾或去掉勾，PageUp PageDown快速翻页，Tab键切换光标位置</p><hr><h1 id="安装中文输入法"><a href="#安装中文输入法" class="headerlink" title="安装中文输入法"></a>安装中文输入法</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install scim-pinyin</span><br></pre></td></tr></table></figure><p>输入法切换热键是Ctrl+空格</p><hr><h1 id="重启生效"><a href="#重启生效" class="headerlink" title="重启生效"></a>重启生效</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="安装中文字体"><a href="#安装中文字体" class="headerlink" title="安装中文字体"></a>安装中文字体</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ttf-wqy-ze nhei</span><br></pre></td></tr></table></figure><hr><h1 id="设置中文显示"><a href="#设置中文显示" class="headerlink" title="设置中文显示"></a>设置中文显示</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo raspi-config</span><br></pre></td></tr></table></figure><p>在菜单中找到设置语言的地方，中选择zh_CN.UTF-8，然后下一屏幕默认语言选zh_CN.UTF-8<br><strong>提示</strong>： 按空格键在前面打勾或去掉勾，PageUp PageDown快速翻页，Tab键切换光标位置</p><hr><h1 id="安装中文输入法"><a href="#安装中文输入法" class="headerlink" title="安装中文输入法"></a>安装中文输入法</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install scim-pinyin</span><br></pre></td></tr></table></figure><p>输入法切换热键是Ctrl+空格</p><hr><h1 id="重启生效"><a href="#重启生效" class="headerlink" title="重启生效"></a>重启生效</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -297,40 +220,9 @@
     
     <category term="Linux" scheme="https://www.yupenbob.ml/tags/Linux/"/>
     
-    <category term="树莓派" scheme="https://www.yupenbob.ml/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
-    
     <category term="安装" scheme="https://www.yupenbob.ml/tags/%E5%AE%89%E8%A3%85/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Python、PyQt5、制作Tello遥控器</title>
-    <link href="https://www.yupenbob.ml/2022/07/28/Python%E3%80%81PyQt5%E3%80%81%E5%88%B6%E4%BD%9CTello%E9%81%A5%E6%8E%A7%E5%99%A8/"/>
-    <id>https://www.yupenbob.ml/2022/07/28/Python%E3%80%81PyQt5%E3%80%81%E5%88%B6%E4%BD%9CTello%E9%81%A5%E6%8E%A7%E5%99%A8/</id>
-    <published>2022-07-28T09:29:14.000Z</published>
-    <updated>2022-08-10T00:55:28.150Z</updated>
-    
-    <content type="html"><![CDATA[<p>留个坑，以后填</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;留个坑，以后填&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Python创意" scheme="https://www.yupenbob.ml/categories/Python%E5%88%9B%E6%84%8F/"/>
-    
-    
-    <category term="Python" scheme="https://www.yupenbob.ml/tags/Python/"/>
-    
-    <category term="PyQt5" scheme="https://www.yupenbob.ml/tags/PyQt5/"/>
-    
-    <category term="Tello" scheme="https://www.yupenbob.ml/tags/Tello/"/>
-    
-    <category term="UI" scheme="https://www.yupenbob.ml/tags/UI/"/>
+    <category term="树莓派" scheme="https://www.yupenbob.ml/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
   </entry>
   
