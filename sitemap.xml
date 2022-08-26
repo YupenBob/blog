@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yupenbob.ml/catch-cat/index.html</loc>
+    
+    <lastmod>2022-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/catch-cat/main.html</loc>
+    
+    <lastmod>2022-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/categories/index.html</loc>
+    
+    <lastmod>2022-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/shuoshuo/index.html</loc>
+    
+    <lastmod>2022-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yupenbob.ml/2022/07/28/hello-world/</loc>
     
     <lastmod>2022-08-25</lastmod>
@@ -74,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://www.yupenbob.ml/shuoshuo/index.html</loc>
-    
-    <lastmod>2022-08-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.yupenbob.ml/link/index.html</loc>
     
     <lastmod>2022-08-21</lastmod>
@@ -93,15 +120,6 @@
   
   <url>
     <loc>https://www.yupenbob.ml/tags/index.html</loc>
-    
-    <lastmod>2022-08-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yupenbob.ml/categories/index.html</loc>
     
     <lastmod>2022-08-21</lastmod>
     
