@@ -77,6 +77,9 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 	border-radius: 8px;
 }
 
+.tag-cloud-list li{
+	
+}
 
 #footer{
 	background: 0;
@@ -90,3 +93,5 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 	color:#4c4948;
 }
 
+font-family: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif;
+}
