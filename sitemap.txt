@@ -1,4 +1,5 @@
 https://www.yupenbob.ml/base/index.html
+https://www.yupenbob.ml/base/main.html
 https://www.yupenbob.ml/test/index.html
 https://www.yupenbob.ml/shuoshuo/index.html
 https://www.yupenbob.ml/2022/07/29/PyQt5%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/
