@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派无显示器安装教程 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,安装,树莓派"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="材料准备  一只野生的树莓派4b 8GB以上的SD卡 电源线(Type-C) 网线(可有可无) SD卡读卡器 PC电脑一台   树莓派简介 Raspberry Pi(中文名为“树莓派”,简写为RPi，(或者RasPi &#x2F; RPI)  是为学习计算机编程教育而设计)，只有信用卡大小的微型电脑，其系统基于Linux。 随着Windows 10 IoT的发布，我们也将可以用上运行Windows的树莓派。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派无显示器安装教程 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,安装,树莓派"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="材料准备  一只野生的树莓派4b 8GB以上的SD卡 电源线(Type-C) 网线(可有可无) SD卡读卡器 PC电脑一台   树莓派简介 Raspberry Pi(中文名为“树莓派”,简写为RPi，(或者RasPi &#x2F; RPI)  是为学习计算机编程教育而设计)，只有信用卡大小的微型电脑，其系统基于Linux。 随着Windows 10 IoT的发布，我们也将可以用上运行Windows的树莓派。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派无显示器安装教程">
 <meta property="og:url" content="https://www.yupenbob.ml/2022/07/29/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%97%A0%E6%98%BE%E7%A4%BA%E5%99%A8%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/index.html">
@@ -129,7 +129,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')

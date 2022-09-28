@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派配置远程桌面 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派,RD,远程桌面"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="配置树莓派远程桌面安装xrdp服务 1sudo apt-get install xrdp 安装tightvncserver服务1sudo apt-get install tightvncserver安装好以上两个服务后，即可使用WIndows自带工具远程连接到树莓派。  连接树莓派远程桌面打开Windows自带远程桌面连接工具 连接验证，选择【是】即可 填写连接用户名和密码，树莓派默认的用户名为【">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派配置远程桌面 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派,RD,远程桌面"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="配置树莓派远程桌面安装xrdp服务 1sudo apt-get install xrdp 安装tightvncserver服务1sudo apt-get install tightvncserver安装好以上两个服务后，即可使用WIndows自带工具远程连接到树莓派。  连接树莓派远程桌面打开Windows自带远程桌面连接工具 连接验证，选择【是】即可 填写连接用户名和密码，树莓派默认的用户名为【">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派配置远程桌面">
 <meta property="og:url" content="https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/index.html">
@@ -130,7 +130,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')

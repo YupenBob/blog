@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派配置FTP | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派,FTP"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="安装vsftpd12sudo apt-get updatesudo apt-get install vsftpd  修改配置 &#x2F;etc&#x2F;vsftpd.conf1sudo nano &#x2F;etc&#x2F;vsftpd.conf 把配置文件修改成如下（最简单配置） 123456789101112131415161718anonymous_enable&#x3D;NO     #匿名帐号 local_enable&#x3D;YES">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派配置FTP | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派,FTP"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="安装vsftpd12sudo apt-get updatesudo apt-get install vsftpd  修改配置 &#x2F;etc&#x2F;vsftpd.conf1sudo nano &#x2F;etc&#x2F;vsftpd.conf 把配置文件修改成如下（最简单配置） 123456789101112131415161718anonymous_enable&#x3D;NO     #匿名帐号 local_enable&#x3D;YES">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派配置FTP">
 <meta property="og:url" content="https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEFTP/index.html">
@@ -129,7 +129,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')

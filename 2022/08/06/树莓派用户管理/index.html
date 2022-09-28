@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派用户管理 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="连接树莓派首先，用OpenSSH连接树莓派1ssh pi@&lt;树莓派ip&gt;然后输入密码连接成功  用户切换用户sudo是增加用户权限，在命令行前面添加sudo相当于以root用户运行这条命令。可以运行sudo su直接切换到root用户操作  “$”为普通用户，”#”为超级用户  sudo su切换为超级用户 su pi切换为普通用户 更改用户密码1sudo passwd pi  &#x2F;&#x2F;更">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派用户管理 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="连接树莓派首先，用OpenSSH连接树莓派1ssh pi@&lt;树莓派ip&gt;然后输入密码连接成功  用户切换用户sudo是增加用户权限，在命令行前面添加sudo相当于以root用户运行这条命令。可以运行sudo su直接切换到root用户操作  “$”为普通用户，”#”为超级用户  sudo su切换为超级用户 su pi切换为普通用户 更改用户密码1sudo passwd pi  &#x2F;&#x2F;更">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派用户管理">
 <meta property="og:url" content="https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/index.html">
@@ -128,7 +128,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')

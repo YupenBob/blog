@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派设置中文 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="安装中文字体1sudo apt-get install ttf-wqy-zenhei  设置中文显示1sudo raspi-config 在菜单中找到设置语言的地方，中选择zh_CN.UTF-8，然后下一屏幕默认语言选zh_CN.UTF-8提示： 按空格键在前面打勾或去掉勾，PageUp PageDown快速翻页，Tab键切换光标位置  安装中文输入法1sudo apt-get install s">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>树莓派设置中文 | YupenBobの小窝</title><meta name="keywords" content="Debian,Linux,树莓派"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="安装中文字体1sudo apt-get install ttf-wqy-zenhei  设置中文显示1sudo raspi-config 在菜单中找到设置语言的地方，中选择zh_CN.UTF-8，然后下一屏幕默认语言选zh_CN.UTF-8提示： 按空格键在前面打勾或去掉勾，PageUp PageDown快速翻页，Tab键切换光标位置  安装中文输入法1sudo apt-get install s">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派设置中文">
 <meta property="og:url" content="https://www.yupenbob.ml/2022/08/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87/index.html">
@@ -128,7 +128,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')

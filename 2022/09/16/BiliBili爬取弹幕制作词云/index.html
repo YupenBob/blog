@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>BiliBili爬取弹幕制作词云 | YupenBobの小窝</title><meta name="keywords" content="Python,爬虫,WordCloud,词云,哔哩哔哩"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="Bilibili_Wordcloud 今天我在CSDN看到了一篇文章，可以把一大段文字使用Python的WordCloud库生成一张图，出现频率越多的词在图上的大小越大，这种图叫做词云。斯…我突发奇想：之前学过网络爬虫，如果我把B站的弹幕爬取下来，做成词云…..嗯…开始实践！ 分析思路我们要爬取一个视频的弹幕，先要分析一下B站的视频地址结构，这里先搞了几个视频 123https:&#x2F;&#x2F;www.bil">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>BiliBili爬取弹幕制作词云 | YupenBobの小窝</title><meta name="keywords" content="Python,爬虫,WordCloud,词云,哔哩哔哩"><meta name="author" content="YupenBob"><meta name="copyright" content="YupenBob"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Bilibili_Wordcloud 今天我在CSDN看到了一篇文章，可以把一大段文字使用Python的WordCloud库生成一张图，出现频率越多的词在图上的大小越大，这种图叫做词云。斯…我突发奇想：之前学过网络爬虫，如果我把B站的弹幕爬取下来，做成词云…..嗯…开始实践！ 分析思路我们要爬取一个视频的弹幕，先要分析一下B站的视频地址结构，这里先搞了几个视频 123https:&#x2F;&#x2F;www.bil">
 <meta property="og:type" content="article">
 <meta property="og:title" content="BiliBili爬取弹幕制作词云">
 <meta property="og:url" content="https://www.yupenbob.ml/2022/09/16/BiliBili%E7%88%AC%E5%8F%96%E5%BC%B9%E5%B9%95%E5%88%B6%E4%BD%9C%E8%AF%8D%E4%BA%91/index.html">
@@ -130,7 +130,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')
