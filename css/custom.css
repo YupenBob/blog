@@ -97,14 +97,12 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 	border-radius: 8px;
 }
 
-/* 首页文章栏背景透明 */
-#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: rgba(255, 255, 255, 0.5)
+[data-theme='dark'] {
+	--card-bg: rgba(18, 18, 18, 0.6);
 }
 
-/* 侧边栏透明 */
-#aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.5)
+[data-theme='light'] {
+	--card-bg: rgba(255, 255, 255, 0.6);
 }
 
 body{
