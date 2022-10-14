@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Live2D 看板娘 v1.2 / Demo</title>
+	<script type="text/javascript" charset="utf-8"  src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+</head>
+<body>
+<script>
+    L2Dwidget.init({
+        "model": {
+　　　　　　　jsonPath: "./fengyuanwanye/fengyuanwanye.model3.json",
+            "scale": 1
+        },
+        "display": {
+            "position": "right", //模型的表现位置
+            "width": 150,  //模型的宽度
+            "height": 300, //模型的高度
+            "hOffset": 0,
+            "vOffset": -20
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+    });
+</script>
+</body>
+</html>

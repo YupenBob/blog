@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yupenbob.ml/live2D/test.html</loc>
+    
+    <lastmod>2022-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/fengyuanwanye.model3.json</loc>
+    
+    <lastmod>2022-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yupenbob.ml/live2D/demo.html</loc>
     
     <lastmod>2022-10-14</lastmod>
@@ -176,6 +194,123 @@
     <loc>https://www.yupenbob.ml/%E4%BD%A0%E8%A2%AB%E9%AA%97%E4%BA%86/index.html</loc>
     
     <lastmod>2022-08-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/fengyuanwanye.prprl2d.json</loc>
+    
+    <lastmod>2022-01-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/ARKitFaceTrackerSettingBeta.json</loc>
+    
+    <lastmod>2022-01-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/motions/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2.motion3.json</loc>
+    
+    <lastmod>2022-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/fengyuanwanye.cdi3.json</loc>
+    
+    <lastmod>2022-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/fengyuanwanye.physics3.json</loc>
+    
+    <lastmod>2022-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/motions/%E9%97%B2%E8%81%8A%20%E5%89%91%E6%8A%80.motion3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/motions/%E9%97%B2%E8%81%8A%20%E5%90%B9%E5%A5%8F.motion3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/motions/%E9%97%B2%E8%81%8A%20%E8%87%AA%E7%84%B6.motion3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/expressions/shiluo.exp3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/expressions/weixiao.exp3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/expressions/cat.exp3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/fengyuanwanye/expressions/maoer.exp3.json</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yupenbob.ml/live2D/assets/waifu-tips.json</loc>
+    
+    <lastmod>2018-05-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
